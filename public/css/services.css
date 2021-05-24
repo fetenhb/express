@@ -1,0 +1,59 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://c1.wallpaperflare.com/preview/588/623/690/interior-white-office-workspace.jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: #fff !important;
+}
+
+.services {
+  margin: 30px auto;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+}
+
+h1 {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+h1:after {
+  content: "";
+  background: white;
+  display: block;
+  width: 250px;
+  height: 3px;
+  margin: 10px auto;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  height: 80px;
+  width: 80px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.icon i {
+  margin-top: 20px;
+}
+
+.col-md-3:hover {
+  box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white !important;
+}
+.icn {
+  font-size: 70px;
+}
+a i {
+  margin-left: 50px;
+}
